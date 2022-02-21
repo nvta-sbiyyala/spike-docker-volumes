@@ -1,6 +1,6 @@
 # Shared Docker Volumes 
 
-`data/input.txt` is read inside the container -- container produces output.txt -- accessible via host OS
+`data/input.txt` is read inside the container -- container produces `output.txt` -- accessible via host OS
 
 ```
 $ docker build -t foo-bar . 
