@@ -4,5 +4,5 @@
 
 ```
 $ docker build -t foo-bar . 
-$ docker run -d -v ~/git/spike-docker-volumes/data:/data foo-bar
+$ docker run -d -v ~/<local-path>/spike-docker-volumes/data:/data foo-bar
 ```
